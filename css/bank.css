@@ -1,0 +1,59 @@
+/*---------------------修改银行卡信息 shx 1011-------------------*/
+.infoTxt{height: 4.8rem;line-height: 4.8rem;color: #666;font-size: 1.4rem;padding: 0 0 0 1.5rem;border-bottom: 1px solid #D8D8D8;}
+.infoTxt2{line-height: 2.0rem;margin-top: 1.0rem;border-bottom: none;}
+.infoDtl{background: #fff;border-bottom: 1px solid #D8D8D8;}
+.info-ul{margin-left: 1.5rem;}
+.info-ul li{border-bottom: 1px solid #D8D8D8;font-size: 1.6rem;}
+.info-ul li:last-child{border-bottom: none;}
+.info-ul li dt{float: left;color: #333;padding: 1.23rem 0;width: 7.8rem;}
+.info-ul li dd{float:left;margin-left: 1.1rem;}
+.info-ul li dd input{padding: 1.6rem 0;color: #333;font-size: 1.6rem;}
+.green-btn2{background-color: #04be02;margin: 2.0rem 1.0rem 1.0rem 1.0rem;height:4.4rem;line-height: 4.4rem;text-align: center;border-radius: 5px;font-size: 1.6rem;color: #fff;}
+.toast {
+  position: fixed;
+  top: 50%;
+  left: 5%;
+  width:90%;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+}
+.toast span{
+  padding:0.5rem 1.0rem;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius:0.5rem;
+  line-height: 3.6rem;
+  display:inline-block;
+}
+
+/*------------------修改银行卡-身份验证 shx 1012 -------------*/
+.bing-p-text{font-size: 1.3rem;padding: 0 1rem;color: #999;line-height: 2rem;margin-top: 2rem}
+.b-ul{border-top: 1px solid #d8d8d8;background-color: #fff;border-bottom: 1px solid #d8d8d8;margin: 1rem 0;}
+.b-ul li{border-bottom: 1px solid #d8d8d8;height: 5rem;margin-left: 1rem}
+.b-ul li:last-child{border-bottom: 0px;}
+.b-ul .yzm{line-height: 4rem;margin: 0.5rem 0;font-size: 1.4rem}
+.bknm{padding: 1.6rem 0;font-size: 1.4rem}
+.c-red{color: #f24e4a;}
+.b-ul li span{display: inline-block;background-color: #04be06;border-radius: 5px;color: #fff;font-size: 1.2rem;float: right;height: 4rem;margin: 0.5rem 0;line-height: 4rem;padding: 0 1rem;margin-right: 1rem;}
+.b-ul li span.on{background-color: #d8d8d8;}
+.b-ul li label{line-height: 4rem;margin: 0.5rem 0;font-size: 1.5rem;margin-right: 1rem;width: 6rem;display: block;float: left;}
+
+.bind-text{padding: 0 1rem;}
+.bind-text p{font-size: 1.2rem;color: #999;line-height: 2rem}
+
+/*-------------------银行卡修改成功 shx 1012---------------*/
+.suc-p{padding-top: 5.5rem;}
+.suc-p p{text-align: center;font-size: 1.6rem;margin-top: 1.0rem;}
+
+/*-------------设置密码成功 shx 1013 ----------*/
+.suc-txt {width: 24.6rem;margin:1.2rem auto 0 auto;}
+.suc-txt li{background: url(../images/dic.png) no-repeat left center;font-size: 1.4rem;color: #666;padding-left: 1.0rem;line-height: 2.2rem;}
+/*------安全密码管理----*/
+.psd-man{background: #fff;border-top: 1px solid #D8D8D8;border-bottom: 1px solid #D8D8D8;margin-top: 1.0rem;}
+.psd-ul{margin-left: 1.5rem;}
+.psd-ul li{border-bottom: 1px solid #D8D8D8;line-height: 5.5rem;font-size: 1.6rem;color: #333;}
+.psd-ul li:last-child{border-bottom: none;}
+.psd-ul li a{display: inline-block;width: 100%;}
+.psd-ul li span{background: url(../images/libg.png) no-repeat left center;width: 0.7rem;height: 5.5rem;position: absolute;right: 1.0rem;display: inline-block;}
+.fgt{padding-right: 1.0rem;text-align: right;}
+.fgt a{color: #576b95;font-size: 1.4rem;}

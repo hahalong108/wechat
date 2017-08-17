@@ -1,0 +1,60 @@
+body{background-color: #fff}
+/*1*/
+ .mar-top img{width: 100%;}
+	.mar-top{border-bottom:1rem solid #efefef}
+	.about-infor{border-top: 1px solid #d8d8d8;padding: 1rem;}
+	.about-infor p{color: #666;font-size: 1.2rem;}
+	.about-infor h1{font-size: 1.8rem;}
+	.about-infor h2{font-size: 1.7rem;}
+	.about-infor h3{font-size: 1.6rem;}
+	.infor-bottom a{color: #576b95;text-decoration: underline;}
+	.infor-bottom{padding: 2rem 1rem 0 1rem;}
+	.view_confirm{border-top: 1px solid #d8d8d8;margin-left: 1rem;text-align: right;padding-right: 1rem;line-height: 3.2rem;font-size: 1.2rem}
+	.view_confirm a{color: #576b95}
+	.foot2{text-align: center;font-size: 1.2rem;color: #666;position: fixed;bottom: 1rem;width: 100%;}
+	.foot1{text-align: center;font-size: 1.2rem;color: #666;width: 100%;}
+	.line{background-color: #efefef;height: 1rem;border-top: 1px solid #d8d8d8;border-bottom: 1px solid #d8d8d8;}
+	.pay-btn{height:4.4rem;line-height: 4.4rem;text-align: center;border-radius: 5px;background-color: #04be02;font-size: 1.6rem;color: #fff;margin-top: 1.5rem;margin-bottom: 1rem;}
+	.md10{margin-right: 1rem;margin-left: 1rem;}
+	.pt10{padding-top: 1rem;}
+	.pb10{padding-bottom: 1rem;}
+	.infor-title{padding-left: 4.5rem;background-repeat: no-repeat;background-size: 3.5rem;background-position: 0.5rem 50%;margin-top: 1rem;}
+/*2*/	
+	
+	
+	.win-box{border-top: 1rem solid #efefef}
+	.win-top{border-top: 1px solid #d8d8d8;height: 4.5rem;line-height: 4.5rem;padding-left: 2rem;font-size: 1.6rem;background-image: url(../images/icon-win.png);background-repeat: no-repeat;background-size: auto 1.6rem;background-position: 1rem 50%;border-bottom: 1px solid #d8d8d8}
+	.service-list{width: 50%;height: 7rem;border-bottom: 1px solid #d8d8d8;float: left;background-repeat: no-repeat;background-size: 4rem;background-position: 1rem 50%;padding-left: 6rem;}
+	.service-list h1{font-size: 1.6rem;font-weight: normal;margin-top: 1.3rem;}
+	.service-list p{font-size: 1.2rem;color: #666;}
+	.win-bottom{font-size: 1.2rem;color: #666;text-align: center;line-height: 4rem;margin-top: 1rem}
+
+	.infor-bottom span{color: #f24e4a;overflow:hidden;word-wrap:break-word;}
+	
+   
+
+/*5*/	
+
+    .success-p{height: 4rem;line-height: 4rem;border-bottom: 1px solid #d8d8d8;font-size: 1.2rem;color: #666;text-align: center;}
+    .shop-box{height: 4rem;line-height: 4rem;margin: 0 1rem;border-bottom: 1px solid #d8d8d8;}
+    .shop-box .shop-title{padding-left: 1.8rem;background-repeat: no-repeat;background-position: 0 47%;display: inline-block;background-size: 1.5rem;font-size: 1.5rem}
+    .shop-box div{width: 50%;float: left;padding-left: 2rem}
+    .corwn-silver{background-image: url(../images/icon-silver.png);}
+    .corwn-gold{background-image: url(../images/icon-gold.png);}
+    .shop-infor{padding: 1rem;border-bottom: 1px solid #d8d8d8;font-size: 1.2rem}
+    
+    .shop-infor-list{float: left;width: 50%;padding-left: 2.5rem;font-size: 1.2rem}
+   
+/*6*/
+    
+    .pay-top{background-image: url(../images/icon-bao.png);background-repeat: no-repeat;background-position: 50% 3rem;height: 15rem;background-size: auto 6.9rem;padding-top: 11.5rem;}
+    .pay-top{text-align: center;font-size: 1.4rem;}
+    .pay-middle{border-bottom:1px solid #d8d8d8;}
+    .serve-list{height: 7rem;background-size: 4rem;background-repeat: no-repeat;background-position: 2rem 50%;padding-left: 8rem;padding-top:1.5rem;}
+    .serve-list h1{font-size: 1.4rem;font-weight: normal;height: 2.5rem}
+    .serve-list p{font-size: 1.2rem;color: #666;height: 3rem;border-bottom: 1px solid #d8d8d8}
+    .btn-button{text-align: center;font-size: 1.2rem;color: #666;}
+    .btn-button a{color: #576b95}
+    .money-title{text-align: center;background-image: url(../images/icon-line.png);background-repeat: no-repeat;background-size: 100%;background-position: 0 50%;font-size: 1.2rem;height: 3rem;line-height: 3rem;}
+    .money-text{font-size: 1rem;color: #666;border-bottom: 1px solid #d8d8d8;margin: 0 1rem 1rem 1rem;padding-bottom: 1rem}
+    

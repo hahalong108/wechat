@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>绑定银行卡</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/card.css"/>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+    <p class="bing-text">请绑定在诸葛服务站预留的银行卡</p>
+    <p class="card-number"><span>银行卡号</span><input type="text" onkeyup="this.value=this.value.replace(/[^\d]/g,'')" placeholder="请输入银行卡号"/></p>
+    <div class="btn-box">
+        <div class="pay-btn on" >提交</div>
+    </div>
+    <script type="text/javascript" src="../js/card.js"></script>
+</body>

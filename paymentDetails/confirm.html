@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="msapplication-tap-highlight" content="no">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<title>支取确认</title>
+<link rel="stylesheet" href="../css/ljjStyle.css">
+</head>
+<body>
+<div class="main">
+<form action="" id="confirm">
+<div class="remindText">请确认支取信息</div>
+  <div class="contentWrap">
+<div class="resultInfo noTopBorder">
+  <div class="left">收款方户名：</div>
+  <div class="center">王小二</div>
+</div>
+<div class="resultInfo">
+  <div class="left">收款方开户行：</div>
+  <div class="center">民生银行电子银行</div>
+</div>
+<div class="resultInfo">
+  <div class="left">收款方账号：</div>
+  <div class="center account">12345678123456781234</div>
+</div>
+<div class="resultInfo">
+  <div class="left">支取金额：</div>
+  <div class="center">2000.00</div>
+</div>
+ </div>
+<p class="text">请输入6位安全密码</p>
+<div class="inputGroup">
+          <input type="text">
+          <input type="text">
+          <input type="text">
+          <input type="text">
+          <input type="text">
+          <input type="text">
+        </div>
+<div class="nextBtn"><button class="active">下一步</button></div> <!-- 触发按钮生效用active -->
+<div class="forget"><span>忘记安全密码</span></div>
+</form>
+</div>
+<script type="text/javascript" src="../js/zepto.min.js"></script> 
+<script type="text/javascript" src="../js/records.js"></script>
+<script type="text/javascript">
+  // 银行账号格式化
+  var $obj = $(".account");
+  var text = $.trim($obj.text());
+  var start = text.substr(0, 4);
+  var second = text.substr(4, 4);
+  var third = text.substr(8, 4);
+  var end = text.substr(12, 4);
+  var str = start+" "+second+" "+third+" "+end;
+      $obj.text(str);
+
+// 密码输入
+  var obj=$(".inputGroup input");
+  obj.each(function(){
+    var reg=/^(\d){1}$/;
+    $(this).keyup(function(){
+      var value=$.trim($(this).val());
+      if(reg.test(value)){
+        $(this).val(value).next("input").val("").focus();
+      }else{
+        $(this).val("").focus();
+      }
+    });
+  });
+
+// 校验密码是否为空，为空不提交表单
+$(".nextBtn button").click(function(){
+  var message="";
+obj.each(function(){
+  var value=$.trim($(this).val());
+  if(!value){
+message="密码不能为空，请填写后再提交";
+return;
+  }
+});
+
+if(message=""){  //如果message为空，代表校验通过，可以提交表单传数据了
+$("#confirm").submit();
+}
+});
+
+
+</script>
+</body>
+</html>

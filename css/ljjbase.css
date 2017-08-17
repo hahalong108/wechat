@@ -1,0 +1,15 @@
+body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,select,textarea,button,th,td,blockquote,address,pre{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6,input,textarea,select,button,label{font-size:100%;vertical-align:middle;}
+ul,dl,ol{list-style:none;}
+img,fieldset{border:none;}
+img{display:inline-block;overflow:hidden;vertical-align:top;}
+em,address{font-style:normal;}
+sup,sub{vertical-align:baseline;}
+table{border-collapse:collapse;border-spacing:0;}
+q:before{content:"";}
+q:after{content:"";}
+button{cursor:pointer;}
+textarea{word-wrap:break-word;resize:none;}
+a,button,input,textarea{-webkit-tap-highlight-color: rgba(0,0,0,0;)-webkit-user-modify:read-write-plaintext-only;-webkit-appearance:none;}
+*{margin:0;padding:0;}
+body{width:7.5rem;background-color: #efeff4;margin:0 auto;color:#333;font-family: "STHeiti","Microsoft YaHei",Helvetica,Arial,sans-serif;}

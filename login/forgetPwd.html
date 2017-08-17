@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%;">
+<head>
+	<meta charset="UTF-8">
+	<title>找回登录密码</title>
+	<link rel="stylesheet" href="../css/forget.css">
+	<script src="../js/flexbile.js"></script>
+</head>
+<body>
+	<div class="relogin_main">
+		<div class="headTop">
+			
+		</div>
+		<div class="form_body">
+			<form id="registerForm">
+				<div class="form_main">
+					<div class="cell clearfix">
+						<span class="cell_phone cell_icon"></span>
+						<em class="cell_line"></em>
+						<input type="text" placeholder="请输入手机号" class="cell_input"  name="mobile">
+						<a href="javascript:;" class="clear_btn clear_ph"></a>
+						<input type="button" value="获取短信验证码" class="cell_getsmd disabled" disabled>
+					</div>
+					<div class="cell clearfix">
+						<span class="cell_psd cell_icon"></span>
+						<em class="cell_line"></em>
+						<input type="password" placeholder="请输入短信验证码" class="cell_input" name="smd">
+						<a href="javascript:;" class="clear_btn"></a>
+					</div>
+					<div class="cell clearfix borderNo">
+						<span class="cell_smcode cell_icon"></span>
+						<em class="cell_line"></em>
+						<input type="password" placeholder="请设置6-16位新的登录密码" class="cell_input width7" name="password">
+						<a href="javascript:;" class="clear_btn clear_pasd"></a>
+						<a href="javascript:;" class="cell_view"></a>
+						<!-- <input class="weui_switch check_pos" type="checkbox" id="weui_switch"> -->
+					</div>
+				</div>
+			</form>
+			<div class="relogin_btn">
+				<a href="javascript:;" id="relogin">重置密码</a>
+			</div>
+		</div>
+	</div>
+	<script src="../js/jquery-1.11.1.min.js"></script>
+	<script src="../js/plugin/validation/jquery.validate.min.js"></script>
+	<script src="../js/plugin/layer/layer.js"></script>
+	<script src="../js/register.js"></script>
+</body>
+</html>

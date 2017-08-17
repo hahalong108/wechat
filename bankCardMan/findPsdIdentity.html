@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+<title>找回安全密码-身份验证</title>
+<link rel="stylesheet" href="../css/base.css"/>
+<link rel="stylesheet" href="../css/bank.css"/>
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/plugin/layer/layer.js"></script>
+<script type="text/javascript" src="../js/bank.js"></script>
+</head>
+<body>
+	<div class="bing-p-text">
+        <p>为保障账户安全，请您进行身份验证，我们将发送手机短信验证码至183****1065</p>
+    </div>
+    <ul class="b-ul">
+        <li><input type="number" placeholder="请输入手机短信验证码" class="yzm" /><span id="valCode" onclick="valCode();">获取验证码</span></li>
+        <li>
+        	<input type="text" placeholder="请输入原民生电子银行卡号" name="" class="bknm">
+        </li>
+    </ul>
+    <div class="red-btn green-btn2" >下一步</div>
+    <div class="bind-text">
+        <p>没收到短信验证码</p>
+        <p>1、网络通讯异常可能会造成短信丢失，请重新获取或稍后再试。</p>
+        <p>2、请核实手机是否已欠费停机，或者屏蔽了系统短信。</p>
+        <p>客服热线：<span class="c-red">4008-654321</span></p>
+    </div>
+</body>
+<script>
+//获取验证码
+function valCode(){
+    var time = 60;
+    $('#valCode').html('60s');
+    var timer = setInterval(function(){
+        time--;
+        $('#valCode').html(time+'s');
+        console.log(time);
+        if (time == 0) {
+            $('#valCode').html('重新获取验证码');
+            clearInterval(timer);
+            $('#valCode').removeClass('on');
+            $('#valCode').attr('onclick',"valCode()");
+        };
+    },1000);
+    $('#valCode').addClass('on');
+    $('#valCode').attr('onclick',"");
+
+}
+</script>
+</html>

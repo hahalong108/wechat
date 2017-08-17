@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 埋点 勿删-->
+    <script>
+        //声明_czc对象:
+        var _czc = _czc || [];
+        //绑定siteid，请用您的siteid替换下方"XXXXXXXX"部分
+        _czc.push(["_setAccount", "1259856991"]);
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>发货确认</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/order.css"/>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../js/plugin/layer/layer.js"></script>
+</head>
+<body style="padding-bottom:5rem">
+	<ul class="lack-ul mt0">
+        <li>订单编号：1293773498394<span class="free"></span></li>
+    </ul>
+    <ul class="lack-ul">
+        <li class="shop-name">修理厂名称：大兴修理厂</li>
+        <li class="user-name">收货人：张三<span class="flr">18833948457</span></li>
+        <li class="user-ads li-lh30">收货地址：北京市通州区万达广场29层北京市通州区万达广场29层北京市通州区万达广</li>
+    </ul>
+    <ul class="lack-ul" id="change-btn">
+        <li>配送方式：<span id="showBox">诸葛配送</span><span class="flr green">修改 ></span></li>
+    </ul>
+    <ul class="full-ul">
+        <li class="goods-list clearfix">
+            <div class="goods-img"><img src="../images/temp/img1.jpg" alt=""></div>
+            <div class="goods-title">宝马发动机宝马发动机宝马发动机宝马发动机宝马发动机</div>
+            <div class="goods-price"><p class="red">￥<span class="price-num">200.00</span></p><p>X1</p></div>
+        </li>
+        <li class="goods-text">
+            <p>商品详细信息</p>
+            <p>商品原价：￥200.00</p>
+            <p>原厂编码：</p>
+            <p>包装规格：</p>
+            <p>型号：S200</p>
+            <p>单位：片</p>
+        </li>
+    </ul>
+    <ul class="full-ul">
+        <li class="goods-list clearfix">
+            <div class="goods-img"><img src="../images/temp/img1.jpg" alt=""></div>
+            <div class="goods-title">宝马发动机宝马发动机宝马发动机宝马发动机宝马发动机</div>
+            <div class="goods-price"><p class="red">￥<span class="price-num">200.00</span></p><p>X1</p></div>
+        </li>
+        <li class="goods-text">
+            <p>商品详细信息</p>
+            <p>商品原价：￥200.00</p>
+            <p>原厂编码：</p>
+            <p>包装规格：</p>
+            <p>型号：S200</p>
+            <p>单位：片</p>
+        </li>
+    </ul>
+    <ul class="bottom-ul">
+        <li class="total-li">
+            <p>共<span class="red">2</span>件商品<span class="flr">合计：￥400.00</span></p>
+            <p><span class="flr">实付金额：<span class="red">￥200.00</span></span></p>
+        </li>
+    </ul>
+    <!-- 发货按钮 -->
+    <div class="bottom-fixed"><span id="deliver" onclick="_czc.push(['_trackEvent', 'confirmSendGoods_sendConfirm', '确认发货点击', '','',''])">确认发货</span></div>
+    <div id="showTip" style="display:none">
+        <ul class="lack-ul-show">
+            <li data-title="诸葛物流"><span class="select-btn on" onclick="_czc.push(['_trackEvent', 'zgwl_modifyWl', '诸葛物流点击', '','',''])"></span>诸葛物流</li>
+            <li data-title="第三方物流">
+                <p><span class="select-btn" onclick="_czc.push(['_trackEvent', 'thirdPartWl_modifyWl', '第三方物流点击', '','',''])"></span>第三方物流</p>
+                <p><input type="text" placeholder="请输入快递公司名称" /></p>
+                <p><input type="text" placeholder="请输入物流单号" /></p>
+            </li>
+        </ul>
+        <div class="sub-btn on" onclick="_czc.push(['_trackEvent', 'confirmModify_modifyWl', '修改物流确认点击', '','',''])">提交</div>
+    </div>
+    <script type="text/javascript" src="../js/order-yf.js"></script>
+    <!-- 埋点 勿删-->
+    <script type="text/javascript">
+
+        var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259856991'%3E%3C/span%3E%3Cscript  src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1259856991' type='text/javascript'%3E%3C/script%3E"));
+
+        document.getElementById("cnzz_stat_icon_1259856991").style.display = "none";
+
+    </script>
+</body>

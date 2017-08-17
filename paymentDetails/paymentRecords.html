@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="msapplication-tap-highlight" content="no">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<title>收支记录</title>
+<link rel="stylesheet" href="../css/ljjStyle.css">
+<link rel="stylesheet" href="../css/zepto.mdatetimer.css">
+</head>
+<body>
+<div class="main">
+  <ul class="tab">
+    <li  class="active">
+      <p><span>全部</span></p>
+    </li>
+    <li>
+      <p><span>订单结算</span></p>
+    </li>
+    <li>
+      <p><span>取出余额</span></p>
+    </li>
+  </ul>
+  <div class="wrapContent">
+  <div class="wrap" style="display:block;">
+    <div class="timeBan"> <span>2016年8月</span>
+      <div class="down"><b>时间筛选</b></div>
+      <input type="text" id="picktime" value="" readonly>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>今天</h2>
+        <p>07-22 12:50:32</p>
+      </div>
+      <div class="part2 icon1">
+        <h2>＋213.80</h2>
+        <p>订单结算-1709213123</p>
+      </div>
+      <div class="part3">
+        <h2>保护期</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>昨天</h2>
+        <p>07-22 12:00:22</p>
+      </div>
+      <div class="part2 icon1">
+        <h2>＋2513.00</h2>
+        <p>订单结算-1709213123</p>
+      </div>
+      <div class="part3">
+        <h2>已可用</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>周三</h2>
+        <p>07-22 12:00:32</p>
+      </div>
+      <div class="part2 icon3">
+        <h2>＋213.00</h2>
+        <p>支付失败返款</p>
+      </div>
+      <div class="part3">
+        <h2>保护期</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>周五</h2>
+        <p>07-22 12:00:32</p>
+      </div>
+      <div class="part2 icon2">
+        <h2>-213.00</h2>
+        <p>取出返款</p>
+      </div>
+      <div class="part3">
+        <h2>处理中</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>周二</h2>
+        <p>07-22 12:00:32</p>
+      </div>
+      <div class="part2 icon2">
+        <h2>-6213.00</h2>
+        <p>取出返款</p>
+      </div>
+      <div class="part3">
+        <h2 class="green">已打款</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="timeBan"> <span>2016年8月</span>
+      <div class="down"><b>时间筛选</b></div>
+      <input type="text" id="picktime" value="" readonly>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>今天</h2>
+        <p>07-22 12:50:30</p>
+      </div>
+      <div class="part2 icon1">
+        <h2>＋213.00</h2>
+        <p>订单结算-1709213123</p>
+      </div>
+      <div class="part3">
+        <h2>保护期</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>昨天</h2>
+        <p>07-22 12:00:32</p>
+      </div>
+      <div class="part2 icon1">
+        <h2>＋2133.00</h2>
+        <p>订单结算-1709213123</p>
+      </div>
+      <div class="part3">
+        <h2>已可用</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>周三</h2>
+        <p>07-22 12:00:32</p>
+      </div>
+      <div class="part2 icon3">
+        <h2>＋213.00</h2>
+        <p>支付失败返款</p>
+      </div>
+      <div class="part3">
+        <h2>保护期</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>周四</h2>
+        <p>07-22 11:00:32</p>
+      </div>
+      <div class="part2 icon2">
+        <h2>-213.00</h2>
+        <p>取出返款</p>
+      </div>
+      <div class="part3">
+        <h2>处理中</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>周二</h2>
+        <p>07-22 12:00:32</p>
+      </div>
+      <div class="part2 icon2">
+        <h2>-213.00</h2>
+        <p>取出返款</p>
+      </div>
+      <div class="part3">
+        <h2 class="green">已打款</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="timeBan"> <span>2016年8月</span>
+      <div class="down"><b>时间筛选</b></div>
+      <input type="text" id="picktime" value="" readonly>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>今天</h2>
+        <p>07-22 12:00:32</p>
+      </div>
+      <div class="part2 icon1">
+        <h2>＋22213.00</h2>
+        <p>订单结算-1709213123</p>
+      </div>
+      <div class="part3">
+        <h2>保护期</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>昨天</h2>
+        <p>07-22 12:00:32</p>
+      </div>
+      <div class="part2 icon1">
+        <h2>＋2136.00</h2>
+        <p>订单结算-1709213123</p>
+      </div>
+      <div class="part3">
+        <h2>已可用</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>周三</h2>
+        <p>07-22 12:00:32</p>
+      </div>
+      <div class="part2 icon3">
+        <h2>＋2183.00</h2>
+        <p>订支付失败返款</p>
+      </div>
+      <div class="part3">
+        <h2>保护期</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>周五</h2>
+        <p>07-22 12:00:52</p>
+      </div>
+      <div class="part2 icon2">
+        <h2>-213.00</h2>
+        <p>取出返款</p>
+      </div>
+      <div class="part3">
+        <h2>处理中</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+    <div class="content">
+      <div class="part1">
+        <h2>周二</h2>
+        <p>07-22 12:00:32</p>
+      </div>
+      <div class="part2 icon2">
+        <h2>-21322.00</h2>
+        <p>取出返款</p>
+      </div>
+      <div class="part3">
+        <h2 class="green">已打款</h2>
+      </div>
+      <div class="part4"> <img src="../images/right.png" alt=""> </div>
+    </div>
+  </div>
+</div>
+<footer>
+	仅提供一年内记录，更多记录请通过www.zgxcw.com查询
+</footer>
+</div>
+<script type="text/javascript" src="../js/zepto.min.js"></script> 
+<script type="text/javascript" src="../js/records.js"></script>
+<script type="text/javascript" src="../js/zepto.mdatetimer.js"></script>
+<script type="text/javascript">
+// 收支记录tab
+$(".tab li").on("click",function(){
+	var indx=$(this).index();
+	$(this).addClass("active").siblings("li").removeClass("active");
+	var wrapContent=$(this).parent("ul.tab").siblings(".wrapContent");
+	wrapContent.find(".wrap").eq(indx).show().siblings().hide();
+});
+
+// 时间选择
+$('#picktime').mdatetimer({
+		format : 1,
+		years : [2000, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
+		nowbtn : false,
+		onOk : function(){ //点击确定时操作
+			var time=$.trim($('#picktime').val());
+			var subTime=time.substr(0,8);
+			$('.timeBan span').text(subTime);
+		}
+	});	
+</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="msapplication-tap-highlight" content="no">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<title>暂无收支记录</title>
+<link rel="stylesheet" href="../css/ljjStyle.css">
+<link rel="stylesheet" href="../css/zepto.mdatetimer.css">
+</head>
+<body>
+<div class="main">
+  <ul class="tab">
+    <li  class="active">
+      <p><span>全部</span></p>
+    </li>
+    <li>
+      <p><span>订单结算</span></p>
+    </li>
+    <li>
+      <p><span>取出余额</span></p>
+    </li>
+  </ul>
+  <div class="wrapContent">
+  <div class="wrap" style="display:block;">
+  <div class="noRecords">暂无收支记录</div>
+  </div>
+  <div class="wrap">
+  <div class="noRecords">暂无收支记录</div>
+  </div>
+  <div class="wrap">
+  <div class="noRecords">暂无收支记录</div>
+  </div>
+</div>
+</div>
+<script type="text/javascript" src="../js/zepto.min.js"></script> 
+<script type="text/javascript" src="../js/records.js"></script>
+<script type="text/javascript" src="../js/zepto.mdatetimer.js"></script>
+<script type="text/javascript">
+// 收支记录tab
+$(".tab li").on("click",function(){
+	var indx=$(this).index();
+	$(this).addClass("active").siblings("li").removeClass("active");
+	var wrapContent=$(this).parent("ul.tab").siblings(".wrapContent");
+	wrapContent.find(".wrap").eq(indx).show().siblings().hide();
+});
+
+// 时间选择
+$('#picktime').mdatetimer({
+		format : 1,
+		years : [2000, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
+		nowbtn : false,
+		onOk : function(){ //点击确定时操作
+			var time=$.trim($('#picktime').val());
+			var subTime=time.substr(0,8);
+			$('.timeBan span').text(subTime);
+		}
+	});	
+</script>
+</body>
+</html>

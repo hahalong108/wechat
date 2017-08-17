@@ -1,0 +1,585 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\000033}}
+.main {
+  width: 7.5rem;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\000034}}
+ul.tab {
+  height: 0.9rem;
+  width: 100%;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\000035}}
+.wrapContent {
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\000036}}
+ul.tab li {
+  width: 33.33%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  height: 0.9rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\000037}}
+ul.tab li p {
+  margin: 0 0.25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\000038}}
+ul.tab li span {
+  border-bottom: 0.04rem solid #fff;
+  font-size: 0.3rem;
+  height: 0.86rem;
+  line-height: 0.86rem;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\000039}}
+ul.tab li.active span {
+  color: #04be02;
+  border-bottom: 0.04rem solid #04be02;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000311}}
+.timeBan {
+  height: 0.7rem;
+  line-height: 0.7rem;
+  background-color: #efeff4;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000312}}
+.timeBan span {
+  font-size: 0.3rem;
+  float: left;
+  padding-left: 0.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000313}}
+.timeBan .down {
+  width: 1.6rem;
+  padding-right: 0.2rem;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000314}}
+.timeBan .down b {
+  color: #ee4120;
+  background: url("../images/down.png") no-repeat right center;
+  padding-right: 0.3rem;
+  font-size: 0.28rem;
+  display: block;
+  background-size: 0.25rem 0.13rem;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000316}}
+.wrap {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000317}}
+.content {
+  padding: 0 0.25rem;
+  height: 1.4rem;
+  border-bottom: 1px solid #d8d8d8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000318}}
+.content .part1 {
+  width: 1.8rem;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000319}}
+.part1 h2 {
+  font-size: 0.3rem;
+  color: #999;
+  font-weight: normal;
+  padding: 0.28rem 0 0.15rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000320}}
+.part1 p {
+  font-size: 0.2rem;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000322}}
+.content .part2 {
+  width: 3rem;
+  height: 1.4rem;
+  padding-left: 0.8rem;
+  display: block;
+  float: left;
+  margin-left: 0.1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000323}}
+.part2.icon1 {
+  background: url("../images/text.png") no-repeat left center;
+  background-size: 0.72rem 0.72rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000324}}
+.part2.icon2 {
+  background: url("../images/cash.png") no-repeat left center;
+  background-size: 0.72rem 0.72rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000325}}
+.part2.icon3 {
+  background: url("../images/return.png") no-repeat left center;
+  background-size: 0.72rem 0.72rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000326}}
+.part2 h2 {
+  font-size: 0.33rem;
+  font-weight: normal;
+  padding: 0.28rem 0 0.05rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000327}}
+.part2 p {
+  font-size: 0.28rem;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000329}}
+.content .part3 {
+  width: 1rem;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000330}}
+.part3 h2 {
+  font-size: 0.3rem;
+  color: #999;
+  font-weight: normal;
+  padding: 0.28rem 0 0.15rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000331}}
+.part3 .green {
+  color: #04be02;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000333}}
+.content .part4 {
+  width: 0.13rem;
+  height: 0.25rem;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000334}}
+.part4 img {
+  width: 0.13rem;
+  height: 0.25rem;
+  padding-top: 0.55rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000335}}
+#picktime {
+  opacity: 0;
+  position: absolute;
+  height: 0.7rem;
+  width: 1.6rem;
+  top: 0;
+  right: 0.2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000336}}
+footer {
+  height: 1.65rem;
+  background-color: #EFEFF4;
+  line-height: 1.65rem;
+  font-size: 0.24rem;
+  color: #999;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000338}}
+.contentWrap {
+  border-bottom: 1px solid #d8d8d8;
+  border-top: 1px solid #d8d8d8;
+  margin-bottom: 0.2rem;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000339}}
+.title {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  font-size: 0.3rem;
+  border-bottom: 1px solid #d8d8d8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000340}}
+.resultShow {
+  text-align: center;
+  padding: 0.5rem 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000341}}
+.resultShow h2 {
+  font-size: 0.7rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000342}}
+.resultShow p {
+  font-size: 0.28rem;
+  color: #999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000343}}
+.resultInfo {
+  border-top: 1px solid #d8d8d8;
+  margin: 0 0.3rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000344}}
+.resultInfo span {
+  float: left;
+  font-size: 0.3rem;
+  color: #999;
+  width: 1.4rem;
+  text-align: left;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000345}}
+.resultInfo b {
+  float: right;
+  text-align: right;
+  font-size: 0.3rem;
+  width: 5.3rem;
+  display: block;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000346}}
+.resultInfo .infor {
+  float: right;
+  text-align: right;
+  font-size: 0.3rem;
+  width: 5.3rem;
+  word-wrap: break-word;
+  word-break: break-all;
+  line-height: 0.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000347}}
+.gray {
+  background-color: #efeff4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000348}}
+.noTopBorder {
+  border-top: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000349}}
+.inforSpecial {
+  height: auto;
+  padding: 0.25rem 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000350}}
+.inforSpecial span {
+  line-height: 0.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000353}}
+.inforList {
+  font-size: 0.3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000354}}
+.inforList i {
+  color: #f24e4a;
+  font-style: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000355}}
+.resultInfo .left {
+  float: left;
+  font-size: 0.3rem;
+  width: 2.15rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000356}}
+.resultInfo .center {
+  float: left;
+  font-size: 0.3rem;
+  width: 4.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000357}}
+.resultInfo .right {
+  float: right;
+  width: 0.35rem;
+  height: 0.9rem;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000358}}
+.resultInfo .right img {
+  width: 0.13rem;
+  height: 0.25rem;
+  padding-top: 0.3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000359}}
+.resultInfo .center input {
+  height: 0.9rem;
+  line-height: 0.9rem;
+  border: none;
+  width: 4.7rem;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000360}}
+input::-webkit-input-placeholder {
+  color: #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000361}}
+p.remind {
+  font-size: 0.26rem;
+  color: #888;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000362}}
+.nextBtn {
+  width: 7.12rem;
+  margin: 0 auto 0.4rem;
+  height: 0.92rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000363}}
+.nextBtn button {
+  background-color: #d8d8d8;
+  color: #fff;
+  line-height: 0.9rem;
+  height: 0.9rem;
+  width: 7.1rem;
+  display: block;
+  border-radius: 0.1rem;
+  font-size: 0.34rem;
+  border: 1px solid #d8d8d8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000364}}
+.nextBtn button.active {
+  background-color: #04be02;
+  border: 1px solid #039802;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000366}}
+.remindText {
+  height: 1rem;
+  font-size: 0.26rem;
+  line-height: 1rem;
+  color: #666;
+  padding-left: 0.3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000367}}
+p.text {
+  font-size: 0.26rem;
+  color: #666;
+  padding-top: 0.1rem;
+  padding-left: 0.3rem;
+  line-height: 0.8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000368}}
+.inputGroup {
+  border: 1px solid #999;
+  height: 0.88rem;
+  margin-left: 0.3rem;
+  width: 5.29rem;
+  margin-bottom: 0.6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000369}}
+.inputGroup input {
+  border: none;
+  border-left: 1px solid #e8e8e6;
+  display: inline-block;
+  float: left;
+  font-size: 0.26rem;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  margin-left: -1px;
+  text-align: center;
+  width: 0.88rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000370}}
+.inputGroup input:nth-child(1) {
+  border-left: none;
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000371}}
+.forget {
+  text-align: right;
+  height: 0.6rem;
+  padding: 0.2rem 0.3rem 0.2rem 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000372}}
+.forget span {
+  font-size: 0.24rem;
+  color: #576b95;
+  text-decoration: underline;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000374}}
+.noRecords {
+  text-align: center;
+  font-size: 0.3rem;
+  color: #666;
+  padding: 4rem 0;
+  background-color: #efeff4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000375}}
+.remindTit {
+  padding: 0.3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000376}}
+.remindTit p {
+  line-height: 0.42rem;
+  height: 0.42rem;
+  font-size: 0.28rem;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000378}}
+.wrapContent .ok {
+  width: 1.84rem;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000379}}
+.wrapContent .ok img {
+  width: 1.84rem;
+  height: 1.84rem;
+  padding: 1.3rem 0 0.25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000380}}
+p.infor {
+  line-height: 0.48rem;
+  font-size: 0.26rem;
+  color: #666;
+  padding: 0 0.3rem 0.8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000381}}
+p.takeCare {
+  font-size: 0.24rem;
+  color: #999;
+  line-height: 0.48rem;
+  padding: 0.2rem 0.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000383}}
+.viewDetail {
+  width: 7.12rem;
+  margin: 0 auto;
+  height: 0.92rem;
+  padding-bottom: 0.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000384}}
+.viewDetail button {
+  background-color: #fff;
+  color: #04be02;
+  line-height: 0.9rem;
+  height: 0.9rem;
+  width: 7.1rem;
+  display: block;
+  border-radius: 0.1rem;
+  font-size: 0.34rem;
+  border: 1px solid #039802;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000387}}
+.bordered {
+  border-top: dotted 1px black;
+  border-bottom: solid 2px black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000392}}
+#menu a {
+  color: #111;
+  border-top: dotted 1px black;
+  border-bottom: solid 2px black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\0000397}}
+.post a {
+  color: red;
+  border-top: dotted 1px black;
+  border-bottom: solid 2px black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003102}}
+.header {
+  color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003104}}
+.header .navigation {
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003107}}
+.header .logo {
+  width: 300px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003112}}
+.clearfix {
+  display: block;
+  zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003116}}
+.clearfix:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+@media screen {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003127}}
+  .screencolor {
+    color: green;
+  }
+}
+@media screen and (min-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003129}}
+  .screencolor {
+    color: red;
+  }
+}
+@media tv {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003133}}
+  .screencolor {
+    color: black;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003138}}
+nav ul {
+  background: blue;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003142}}
+.inline,
+nav ul {
+  color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003146}}
+[title=identifier],
+.noQuote,
+.singleQuote,
+.doubleQuote {
+  color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003149}}
+[title='identifier'],
+.noQuote,
+.singleQuote,
+.doubleQuote {
+  color: blue;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003152}}
+[title="identifier"],
+.noQuote,
+.singleQuote,
+.doubleQuote {
+  color: yellow;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003160}}
+.my-inline-block,
+.thing3,
+.thing4 {
+  display: inline-block;
+  font-size: 12px ;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003164}}
+.thing1 {
+  display: inline-block;
+  font-size: 12px ;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003167}}
+.thing2 {
+  display: inline-block;
+  font-size: 12px ;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003188}}
+.box {
+  color: #fe33ac;
+  border-color: #fdcdea;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wanglei\/Desktop\/ljj\/wexin\/css\/ljjStyle1\.less}line{font-family:\00003191}}
+.box div {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+}

@@ -1,0 +1,61 @@
+/*缴纳保证金*/
+#pay_all{background: white}
+.pay_top{width: 100%;  background: white}
+.pay_tabel tr td{color: rgba(0,152,75,1);font-size: 1.5rem}
+.pay_fg{height:1rem;width: 100%;background: rgba(239,239,239,1) }
+.pay_down{background: white;padding-top: 1px}
+.pay_img{width: 7.5rem;height: 7.5rem;display:block ;margin-left: auto;margin-right: auto;margin-top: 4.5rem}
+.pay_descs{width: 100%;padding: 1rem}
+.pay_descs p{line-height: 170%;text-align: center;}
+.pay_desc_line1{font-size: 1.5rem}
+.pay_desc_line2{font-size: 1.5rem}
+.pay_desc_line3{font-size: 1.2rem;color: gray;margin-top: 1rem}
+.pay_desc_line4{font-size: 1.2rem;color: gray;margin-top: 0.5rem}
+.pay_tip{margin-left: 10%;width: 80%; height: 2rem; font-size: 1.2rem; text-align: center;color: rgba(153,153,153,1) }
+.pay_depos_bottom{width: 90%; margin-left: 5%;margin-top: 0.5rem}
+.pay_agree{text-align: center; margin-top: 0.5rem; height: 3rem; font-size: 1.2rem; vertical-align: middle;padding-bottom: 1rem}
+.pay_bottom_line{background: white;}
+.pay_xieyi{height :100%;}
+.pay_xieyi a{color: rgba(87,107,149,1);}
+#pay_pay{height: 4.5rem;letter-spacing: 0.3rem}
+#pay_check{
+    width:1.5rem;
+    height:1.8rem;
+    background-image: url(../images/icon-noselected.png);
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    display: inline-block;
+    background-position: 0 50%;
+    position: relative;
+    top: 0.4rem;
+    right: 0.1rem;
+}
+#pay_check.on{background-image: url(../images/icon-selected.png);}
+
+
+
+/*支付成功*/
+#succ_body{background: white}
+.succ_imgS{width: 7rem;margin-left: auto;margin-right: auto;display: block;padding-top: 5rem}
+.succ_tip{text-align: center;width: 100%;padding-top: 0.5rem;font-size: 1.7rem;color: rgba(0,152,75,1);}
+.succ_cru{width: 100%;padding-left: 1.5rem;  padding-top: 5rem;font-size: 1.5rem; color: rgba(51,51,51,1);}
+.succ_clause{margin-top: 0.5rem;font-size: 1.5rem; padding-left:3.3rem;  color: rgba(51,51,51,1)}
+
+.succ_bottom{width: 100%;text-align: center; font-size: 0.4rem;}
+.succ_more{width: 100%;text-align: center;color: #999999; font-size:1.2rem;padding-top: 0.5rem}
+.succ_up{width: 90%; margin-left: 5%;margin-top: 0.5rem}
+.succ_up .upstore{font-size: 1.7rem; letter-spacing: 0.3rem;height: 4.5rem; color: #ffffff}
+
+.succ_con{margin-top: 0.5rem;color: #666666;font-size: 1.2rem}
+.succ_time{color: #666666;font-size: 1.2rem;padding-bottom: 1rem;}
+.succ_li{list-style: disc}
+
+
+/*---保证金协议--*/
+.depos_agree{overflow-y: auto; background-color: white;margin:1rem 1rem 1rem 1rem;}
+.depos_agree_title{color: #000;font-size: 1.7rem;line-height: 150%;text-align: center;padding: 1.5rem 1rem 0 1rem; }
+.depos_t{font-size: 1.4rem;padding-left: 1rem;padding-top: 1.7rem;padding-bottom: 1.7rem}
+.depos_nomal{font-size: 1.3rem;padding-left: 1rem;padding-right: 1rem}
+.depos_small{font-size: 1.3rem;padding-left: 2rem;padding-right: 1rem}
+
+.mt40{margin-top: 40px;}

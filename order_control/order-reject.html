@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 埋点 勿删-->
+    <script>
+        //声明_czc对象:
+        var _czc = _czc || [];
+        //绑定siteid，请用您的siteid替换下方"XXXXXXXX"部分
+        _czc.push(["_setAccount", "1259856991"]);
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>订单审核</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/order.css"/>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+    <div class="select-box">
+        <input class="option-list" readOnly="true" value="该商品以卖光" onclick="_czc.push(['_trackEvent', 'sellout_orderAudit', '该商品已卖光点击', '','',''])"/>
+        <input class="option-list" readOnly="true" value="买家信息填写错误" onclick="_czc.push(['_trackEvent', 'buyerMesWrong_orderAudit', '买家信息填写错误', '','',''])"/>
+        <div>
+             <textarea class="option-list" placeholder="请输入其他原因"  maxlength="100"  onclick="_czc.push(['_trackEvent', 'input_orderAudit', '输入其他原因', '','',''])"></textarea>
+             <span class="text-num">0/100</span>
+        </div>
+    </div>
+    <div class="sub-btn">提交</div>
+    <script type="text/javascript" src="../js/order-yf.js"></script>
+    <!-- 埋点 勿删-->
+    <script type="text/javascript">
+
+        var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259856991'%3E%3C/span%3E%3Cscript  src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1259856991' type='text/javascript'%3E%3C/script%3E"));
+
+        document.getElementById("cnzz_stat_icon_1259856991").style.display = "none";
+
+    </script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

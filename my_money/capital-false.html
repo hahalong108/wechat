@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>我的资产</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/capital.css"/>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+    <div class="m-top  arrow-r">
+        账户状态：<span class="c-green">正常</span><a href="">保证金<span class="c-red">(未缴纳)</span></a>
+    </div>
+    <div class="m-content">
+        <div class="m-yue">
+            <p style="font-size:1.7rem;padding-top:1.5rem">可用余额(元)<span class="wen"><span class="top-tip" style="bottom:-2rem;left:-2rem;width:13rem">可自由支配的金额，可取出</span></span></p>
+            <p style="font-size:4rem">238142.00</p>
+            <p><span class="take-btn">取出余额</span></p>
+        </div>
+        <div class="gradient">
+            <div>
+                <p>总余额(元)<span class="wen"><span class="top-tip" style="top:-2rem;left:-11rem;width:14rem">总余额=可用余额+保护期余额</span></span></p>
+                <p>1435.00</p>
+            </div>
+            <div>
+                <p>保护期余额(元)<span class="wen"><span class="top-tip" style="top:-2rem;left:-15rem;width:19rem">暂不能取出的金额，表明买家还未收货</span></span></p>
+                <p>896.00</p>
+            </div>
+        </div>
+    </div>
+    <div class="f-bar arrow-r"><span class="icon-record">收支记录</span></div>
+    <ul class="f-ul">
+        <li><span class="icon-setting">支取设置</span></li>
+        <li class="arrow-r">
+            <div class="fll">
+                <p class="title-text">银行卡</p>
+                <p class="small-text">取出的余额将会打款到此卡</p>
+            </div>
+            <div class="flr-text mr30">修改</div>
+            
+        </li>
+        <li class="arrow-r">
+            <div class="fll">
+                <p class="title-text">支付密码</p>
+                <p class="small-text">取出余额时需输入此密码作为安全验证</p>
+            </div>
+            <div class="flr-text mr30">修改</div>
+            
+        </li>
+    </ul>
+    <div class="f-bar arrow-r"><span class="icon-qu">帮助中心</span></div>
+    <script type="text/javascript" src="../js/capital.js"></script>
+</body>

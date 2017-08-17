@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<title>资质审核</title>
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" href="../css/base.css"/>
+	<link rel="stylesheet" href="../css/margin.css"/>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+	<div class="mar-top">
+		<img src="../images/jx_top.png" alt="">
+	</div>
+	<div class="about-infor">
+		<div class="infor-title" style="background-image: url(../images/icon-nopass.png);">
+			<h1>您的资质审核未通过！</h1>
+			<p>请您根据失败原因修改后重新提交。</p>
+		</div>
+		<p class="infor-bottom">失败原因：<span>图片不合格</span></p>
+	</div>
+	<div class="view_confirm clearfix">
+		<div class="pay-btn">马上修改</div>
+	</div>
+	<div class="foot2">
+		<p>联系我们：可微信直接回复问题或致电<a href="tel:4008-654321" style="color:#f24e4a">4008-654321</a></p>
+		<p>服务时间：08:30-18:00</p>
+	</div>
+	<script type="text/javascript">
+	if ($(window).width() < 350) {
+	    document.documentElement.style.fontSize=document.documentElement.clientWidth/32+'px'; 
+	}else if ($(window).width() > 500) {
+	    document.documentElement.style.fontSize=document.documentElement.clientWidth/75+'px';
+	}else{
+	    document.documentElement.style.fontSize=document.documentElement.clientWidth/37.5+'px'; 
+	}
+	</script>
+</body>
+</html>

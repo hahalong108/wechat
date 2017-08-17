@@ -1,0 +1,81 @@
+/*body{max-width: 40rem;margin: 0 auto}*/
+.shop-intro{padding: 2rem 1rem 3rem 2.5rem;font-size: 1.5rem;}
+.shop-intro p{line-height: 2.4rem;padding: 1.1rem 0;}
+.shop-intro ul li{line-height: 2.4rem}
+.bgf{background-color: #fff}
+
+.mt0{margin-top: 0px;}
+.mt20{margin-top: 2rem;}
+.red{color:#f24e4a;}
+.flr{float: right;}
+.green{color: #00c000}
+
+
+.top-text{margin-bottom: 1rem;padding: 10px;background-color: #fff;font-size: 1.5rem;border-bottom: 1px solid #d8d8d8;}
+.top-text .small{font-size: 1.2rem;color: #666;}
+.top-text a{color: #576b95;display: inline-block;padding-left: 1.5rem;background-image: url(../images/icon-question.png);background-repeat: no-repeat;background-position: 0 43%;background-size: 1.2rem;}
+.shop-box{padding: 0 10px;background-color: #fff;border-top: 1px solid #d8d8d8;border-bottom: 1px solid #d8d8d8;margin: 10px 0;}
+.shop-box h1{text-align: center;font-size: 1.5rem;font-weight: normal;line-height: 4.5rem;border-bottom: 1px solid #d8d8d8;position: relative;}
+.shop-box .shop-title{padding-left: 1.8rem;background-repeat: no-repeat;background-position: 0 47%;display: inline-block;background-size: 1.5rem;}
+.corwn-silver{background-image: url(../images/icon-silver.png);}
+.corwn-gold{background-image: url(../images/icon-gold.png);}
+.shop-box .psr{position: absolute;right: 0px;}
+.shop-box ul{font-size: 1.4rem;line-height: 2.4rem;padding-top: 1rem;}
+a.record{color: #576b95;text-decoration:underline;margin-right: 10px;margin-bottom: 1rem;font-size: 1.4rem;}
+.pay-btn{height:4.4rem;line-height: 4.4rem;text-align: center;border-radius: 5px;background-color: #04be02;margin: 0 auto;font-size: 1.6rem;color: #fff;margin-top: 1.5rem;margin-bottom: 1rem;}
+
+
+.pay-box{background-color: #fff;margin: 10px 0;font-size: 1.5rem;}
+.pay-box label{width: 8rem;display: inline-block;}
+.pay-box .service{padding: 10px 10px 0 10px}
+.pay-box .service label{float: left;line-height: 2.4rem;}
+.pay-box div{font-size: 1.5rem;font-weight: normal;line-height: 4.5rem;padding: 0 10px;}
+.pay-box div:first-child{border-bottom: 1px solid #d8d8d8;}
+.pay-box .shop-title{padding-left: 1.8rem;background-repeat: no-repeat;background-position: 0 47%;display: inline-block;background-size: 1.5rem;}
+.pay-box .psr{position: absolute;right: 0px;}
+.pay-box ul{font-size: 1.5rem;line-height: 2.4rem;float: left;}
+.choose-box{background-color: #fff;padding: 10px;font-size: 1.5rem}
+.choose-box h1{line-height: 3rem;font-size: 1.5rem;font-weight: normal;}
+.choose{padding-top: 10px;}
+.choose span{display: inline-block;width: 23%;margin-right: 2%;float: left;height: 3rem;line-height: 3rem;text-align: center;border: 1px solid #999999;font-size: 1.2rem;color: #666;border-radius: 2px;margin-bottom: 1rem;}
+.choose span:last-child{margin-right: 0;}
+.choose span.on{border: 1px solid #00984b;color: #00984b;background-image: url(../images/icon-right.png);background-repeat: no-repeat;background-size: 1rem;background-position: 15% 50%;padding-left: 1rem;}
+.bottom-fix{position: fixed;width: 100%;height: 4.5rem;line-height: 4.5rem;background-color: #fff;bottom: 0;font-size: 1.5rem;}
+.bottom-fix .buy-btn{width: 12rem;display: inline-block;background-color: #04be02;text-align: center;color: #fff;}
+.mr10{margin-right: 1rem}
+
+.service-title{height: 5rem;line-height: 5rem;text-align: center;font-size: 1.5rem;background-color: #fff}
+.service-title .pay-false{padding-left: 1.8rem;background-image: url(../images/icon-false.png);background-size: 1.4rem;background-repeat: no-repeat;background-position: 0 50%;}
+.service-title .pay-true{padding-left: 1.8rem;background-image: url(../images/icon-true.png);background-size: 1.4rem;background-repeat: no-repeat;background-position: 0 50%;}
+.full-ul{background-color: #fff;border-top: 10px solid #efeff4;border-bottom: 10px solid #efeff4}
+.full-ul-false{border-bottom: 1px solid #d8d8d8;}
+.full-ul li{padding: 0 10px;border-bottom: 1px solid #d8d8d8;line-height: 4.4rem;font-size: 1.4rem;}
+.full-ul li:last-child{border-bottom: 0px solid #d8d8d8;}
+.full-ul li.li-lh30{line-height: 2.4rem;padding: 1rem 10px;}
+li.bb0{border-bottom: 0;}
+.mt0{margin-top: 0}
+.service-text-title{padding-left: 1.8rem;background-repeat: no-repeat;background-position: 0 47%;display: inline-block;background-size: 1.5rem;font-size: 1.4rem;line-height: 3rem;}
+.service-text{padding: 10px;background-color: #fff;font-size: 1.4rem;}
+.service-text ul li{line-height: 2.4rem}
+.service-text-false{border-bottom: 1px solid #d8d8d8}
+
+.prompt{font-size: 1.2rem;color: #999;line-height: 2rem;padding: 10px;}
+.prompt span{float: left;display: inline-block;}
+.prompt span:last-child{width: 80%;}
+a.turn-back{color: #576b95;margin-right: 10px;margin-bottom: 1rem;font-size: 1.4rem;float: right;}
+
+.re-list{border-top: 1px solid #d8d8d8;border-bottom: 1px solid #d8d8d8;font-size:1.4rem;background-color: #fff;margin-bottom: 1rem;}
+.re-list .re-li-title{border-bottom: 1px solid #d8d8d8;line-height: 4rem;padding: 0 10px}
+.re-list .re-li-intro{padding: 1rem 10px;}
+.re-list .re-li-intro p{line-height: 3rem;}
+.re-list .re-li-intro .shop-type .shop-name{padding-left: 1.8rem;background-repeat: no-repeat;background-position: 0 47%;display: inline-block;background-size: 1.5rem;}
+.re-list .re-li-intro .pay-time .small{color: 666666;font-size: 1.2rem;padding-left: 1.8rem}
+.gray{color: 999999}
+
+/*shop-record*/
+.wrapper{width: 100%; overflow: hidden;background: #eee;height: 100%;position: fixed;}
+.wrap-box{position:relative; width: 100%; -webkit-transition:-webkit-transform 0.5s ease-out 0s; z-index: 9; }
+#scroller-pullDown{height: 50px;  line-height:30px; padding: 10px 0; text-align:center; font-size: 14px; width: 100%;  position:absolute; left: 0; top: -50px;  }
+#scroller-pullDown.on{height: 50px;  line-height:30px; padding: 10px 0; text-align:center; font-size: 14px; width: 100%;  position:relative; left: 0; top: 0;  }
+#scroller-pullUp{height: 50px;  line-height:30px; padding: 10px 0; text-align:center; font-size: 14px; width: 100%;  position:absolute; left: 0; bottom: -50px; }
+#noRecord{width: 100%;height: 3rem;line-height: 3rem;text-align: center;font-size: 1.4rem;color: #333;position: absolute;top: 50%;margin-top: -3rem;}

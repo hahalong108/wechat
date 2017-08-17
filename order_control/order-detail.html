@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 埋点 勿删-->
+    <script>
+        //声明_czc对象:
+        var _czc = _czc || [];
+        //绑定siteid，请用您的siteid替换下方"XXXXXXXX"部分
+        _czc.push(["_setAccount", "1259856991"]);
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>订单详情</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/order.css"/>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+</head>
+<body style="padding-bottom:5rem">
+	<ul class="lack-ul mt0">
+        <li>订单编号：1293773498394<span class="flr red">待审核</span></li>
+        <li>驳回原因：缺货</li>
+        <li>下单时间：2016-06-06 09:00:00</li>
+    </ul>
+    <ul class="lack-ul">
+        <li class="user-name">收货人：张三<span class="flr">18833948457</span></li>
+        <li class="user-ads">收货地址：北京市通州区万达广场29层</li>
+    </ul>
+    <ul class="full-ul">
+        <li class="shop-name">大兴修理厂</li>
+        <li class="goods-list clearfix">
+            <div class="goods-img"><img src="../images/temp/img1.jpg" alt=""></div>
+            <div class="goods-title">宝马发动机宝马发动机宝马发动机宝马发动机宝马发动机</div>
+            <div class="goods-price"><p class="red">￥<span class="price-num">200.00</span></p><p>X1</p><p class="alter-btn" onclick="_czc.push(['_trackEvent', 'modifyprice_orderDetail', '修改价格点击', '','',''])">修改价格</p></div>
+            <div class="alter-price" style="display:none">
+                <p><input type="number" value="200"/></p>
+                <p class="flr done-btn">完成</p>
+            </div>
+        </li>
+        <li class="goods-list clearfix">
+            <div class="goods-img"><img src="../images/temp/img1.jpg" alt=""></div>
+            <div class="goods-title">宝马发动机宝马发动机宝马发动机宝马发动机宝马发动机</div>
+            <div class="goods-price"><p class="red">￥200.00</p><p>X1</p></div>
+        </li>
+        <li class="goods-list clearfix">
+            <div class="goods-img"><img src="../images/temp/img1.jpg" alt=""></div>
+            <div class="goods-title">宝马发动机宝马发动机宝马发动机宝马发动机宝马发动机</div>
+            <div class="goods-price"><p class="red">￥200.00</p><p>X1</p></div>
+        </li>
+        <li>共2件商品 合计：<span class="red">￥400.00</span></li>
+    </ul>
+    <ul class="lack-ul">
+        <li>配送方式：诸葛配送</li>
+        <li>发票信息：无</li>
+    </ul>
+    <!-- 通过 不通过 按钮 -->
+    <div class="bottom-fixed"><span id="no-pass" onclick="_czc.push(['_trackEvent', 'nopass_orderDetail', '订单详情不通过点击', '','',''])">不通过</span><span id="pass" onclick="_czc.push(['_trackEvent', 'pass_orderDetail', '订单详情通过点击', '','',''])">通过</span></div>
+    <!-- 发货按钮 -->
+    <!-- <div class="bottom-fixed"><span id="deliver">发货</span></div> -->
+    <script type="text/javascript" src="../js/order-yf.js"></script>
+    <!-- 埋点 勿删-->
+    <script type="text/javascript">
+
+        var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259856991'%3E%3C/span%3E%3Cscript  src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1259856991' type='text/javascript'%3E%3C/script%3E"));
+
+        document.getElementById("cnzz_stat_icon_1259856991").style.display = "none";
+
+    </script>
+</body>

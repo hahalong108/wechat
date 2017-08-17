@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%;">
+<head>
+	<!-- 勿删 埋点使用-->
+	<script>
+		//声明_czc对象:
+		var _czc = _czc || [];
+		//绑定siteid，请用您的siteid替换下方"XXXXXXXX"部分
+		_czc.push(["_setAccount", "1259856991"]);
+	</script>
+	<meta charset="UTF-8">
+	<title>经销商认证申请</title>
+	<link rel="stylesheet" href="../css/certification.css">
+	<script src="../js/flexbile.js"></script>
+</head>
+<body>
+	<div class="jx_main">
+		<div class="relogin_head">
+			<img src="../images/jx_top.png" alt="">
+		</div>
+		<div class="h30"></div>
+		<div class="form_body">
+			<form id="certifia_form">
+				<div class="form_main">
+					<div class="cell clearfix">
+						<i class="bg-icon"></i>
+						<span class="cell_text">企业名称:</span>
+						<input type="text" placeholder="请输入企业名称" class="cell_input" name="enterName">
+						<span class="line_btm"></span>
+					</div>
+					<div class="cell clearfix">
+						<i class="bg-icon"></i>
+						<span class="cell_text">企业法人:</span>
+						<input type="text" placeholder="请输入企业法人" class="cell_input" name="enterUser">
+						<span class="line_btm"></span>
+					</div>
+					<div class="cell clearfix">
+						<i class="bg-icon"></i>
+						<span class="cell_text">营业执照注册号:</span>
+						<input type="number" placeholder="请输入营业执照号码" class="cell_input" name="business"> 
+						<a href="javascript:;" class="clear_btn"></a>
+						<span class="line_btm"></span>
+					</div>
+					<div class="cell clearfix">
+						<i class="bg-icon"></i>
+						<span class="cell_text">营业执照有效期:</span>
+						<div class="date_time clearfix pdt8">
+							<em>开始日期</em>
+							<input type="date" class="starttime" name="datestart" onchange="startTime(this)">
+						</div>
+						<span class="cell_text2">至</span>
+						<div class="date_time clearfix">
+							<em>结束日期</em>
+							<input type="date" class="starttime" name="dateend" onchange="startTime(this)">
+						</div>
+						<div class="cell_warming clearfix">
+							<i class="warming_ico"></i>
+							<span class="warming_text">若您的营业执照长期有效，结束日期可不填写!</span>
+							<input type="button" value="清除日期" class="cleardate">
+						</div>
+						<span class="line_btm"></span>
+					</div>
+					<div class="cell clearfix">
+						<i class="bg-icon"></i>
+						<span class="cell_text">营业执照照片:</span>
+					</div>
+					<div class="cell clearfix">
+						<div class="upload">
+							<img src="../images/upload.png" alt="">
+						</div>
+						<span class="line_btm"></span>
+					</div>
+					<div class="cell clearfix">
+						<i class="bg-icon"></i>
+						<span class="cell_text">门头照片:</span>
+						<a href="javascript:;" class="reup_btn">重新上传</a>
+						<div class="reupload">
+							<img src="../images/temp/b.png" alt="">
+						</div>
+						<span class="line_btm"></span>
+					</div>
+					<div class="cell clearfix">
+						<i class="bg-icon"></i>
+						<span class="cell_text">店铺地区:</span>
+						<select class="province select_p pdt8">
+							<option value="13000">北京</option>
+							<option value="13000">天津</option>
+							<option value="13000">上海</option>
+						</select>
+						<select class="ciyt select_p">
+							<option value="13000">北京市</option>
+							<option value="13000">天津市</option>
+							<option value="13000">上海市</option>
+						</select>
+						<select class="town select_p" name="town">
+							<option value="13000">朝阳区</option>
+							<option value="13000">南开区</option>
+							<option value="13000">徐汇区</option>
+						</select>
+						<span class="line_btm"></span>
+					</div>
+					<div class="cell clearfix">
+						<i class="bg-icon"></i>
+						<span class="cell_text">详细地址:</span>
+						<input type="text" placeholder="请输入详细地址" class="cell_input"  name="adress_detail">
+						<span class="line_btm"></span>
+					</div>
+					<div class="cell clearfix">
+						<i class="bg-icon"></i>
+						<span class="cell_text">所属服务站:</span>
+						<select class="select_p pdt8" name="station">
+							<option value="">请选择服务站</option>
+							<option value="234234">北京</option>
+							<option value="234234">北京</option>
+							<option value="234234">北京</option>
+							<option value="234234">北京</option>
+						</select>
+						<span class="line_btm"></span>
+					</div>
+					<div class="cell clearfix">
+						<i class="bg-icon"></i>
+						<span class="cell_text">联系人:</span>
+						<input type="text" placeholder="请输入联系人姓名" class="cell_input" name="linkman">
+						<span class="line_btm"></span>
+					</div>
+					<div class="cell clearfix">
+						<i class="bg-icon"></i>
+						<span class="cell_text">联系方式:</span>
+						<input type="text" placeholder="请输入手机号" class="cell_input" name="mobile">
+						<div class="telphone_num">
+							<span>或</span>
+							<input type="text" placeholder="区号"  id="tell">
+							<input type="text" placeholder="固定电话" class="tel_max" name="tel">
+							<input type="text" placeholder="分机号">
+						</div>
+						<span class="line_btm"></span>
+					</div>
+					<div class="cell clearfix">
+						<p class="agree">
+							<!-- 添加了onClick埋点 勿删-->
+							<span class="active" onclick="_czc.push(['_trackEvent', 'tobeERPUser_DistributorAuthenticationApply', '点击成为ERP','','','']);"></span>
+							成为ERP用户
+						</p>
+						<!-- 添加了onClick埋点 勿删-->
+						<a href="javascript:;" class="know_Erp" onclick="_czc.push(['_trackEvent', 'aboutERP_DistributorAuthenticationApply', '点击了解ERP','','','']);">点击了解ERP</a>
+						<span class="line_btm"></span>
+					</div>
+				</div>
+			</form>
+			<div class="jxlogin_btn">
+				<!-- 添加了onClick埋点 勿删-->
+				<a href="javascript:;" id="submit" onclick="_czc.push(['_trackEvent', 'submit_DistributorAuthenticationApply', '提交经销商认证申请','','','']);">提交</a>
+			</div>
+			<div class="jxlogin_no">
+				<p class="agree2 clearfix">
+					<i></i>
+					<span>提交即视为同意</span>
+					<a href="javascript:;" class="register">《诸葛修车网经销商注册协议》
+					</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<ul id="errmsg" style="display:none"></ul>
+	<script>
+			function startTime(text){
+				var time = text.value;
+				text.parentNode.getElementsByTagName('em')[0].innerHTML = time;
+			}
+	</script>
+	<script src="../js/jquery-1.11.1.min.js"></script>
+	<script src="../js/plugin/validation/jquery.validate.min.js"></script>
+	<script src="../js/certificate.js"></script>
+	<!-- 勿删 埋点使用-->
+	<script type="text/javascript">
+
+		var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259856991'%3E%3C/span%3E%3Cscript  src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1259856991' type='text/javascript'%3E%3C/script%3E"));
+
+		document.getElementById("cnzz_stat_icon_1259856991").style.display = "none";
+
+	</script>
+</body>
+</html>

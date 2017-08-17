@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+<title>修改银行卡信息</title>
+<link rel="stylesheet" href="../css/base.css"/>
+<link rel="stylesheet" href="../css/bank.css"/>
+</head>
+<body>
+	<div class="infoTxt">取出余额时，将打款到此银行卡</div>
+	<div class="infoDtl">
+		<form id="info-fm" method="" action="">
+		<ul class="info-ul">
+			<li>
+				<dl class="clearfix">
+					<dt>所属银行</dt>
+					<dd><input type="text" value="民生银行电子银行" name="bankname" /></dd>
+				</dl>
+			</li>
+			<li>
+				<dl class="clearfix">
+					<dt>银行卡号</dt>
+					<dd><input type="text" value="1234568974898899" name="banknum" /></dd>
+				</dl>
+			</li>
+			<li>
+				<dl class="clearfix">
+					<dt>开户人</dt>
+					<dd><input type="text" value="张三" name="username" /></dd>
+				</dl>
+			</li>
+		</ul>
+		</form>
+	</div>
+    <div class="green-btn2" id="removeBtn">确定</div>
+</body>
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/plugin/layer/layer.js"></script>
+<script type="text/javascript" src="../js/plugin/validation/jquery.validate.min.js" ></script>
+<!--<script type="text/javascript" src="../js/bankInfo.js"></script>-->
+<script  type="text/javascript" src="../js/bank.js"></script>
+<script>
+/*$(function(){
+$.validator.addMethod("vdbankname",function (value,element){
+    var bkname = /^[\u4e00-\u9fa5]*$/;
+    return bkname.test(value);
+},"请输入正确银行名称");	
+$.validator.addMethod("vdbanknum",function (value,element){
+    var bknum =  /^(\d{16}|\d{19})$/;
+    return bknum.test(value);
+},"请输入正确银行卡号");	
+$.validator.addMethod("vdusername",function (value,element){
+    var uname = /^([a-zA-Z0-9\u4e00-\u9fa5\·]{1,10})$/;
+    return uname.test(value);
+},"请输入正确的姓名");
+
+$("#info-fm").validate({
+	onsubmit:true,
+	onkeyup:false,
+	submitHandler:function(form){
+        alert("提交事件!");   
+        //form.submit();
+    },
+	errorPlacement:function(error,el){
+		if($(el).val() || $(el).val()==''){
+			showTip(error.text());
+		}
+	},
+	rules:{
+		bankname:{
+			required:true,
+			vdbankname:true
+		},
+		banknum:{
+			required:true,
+			vdbanknum:true
+		},
+		username:{
+			required:true,
+			vdusername:true
+		}
+	},
+	messages:{
+		bankname:{
+			required:"只能输入中文"
+		},
+		banknum:{
+			required:"请输入正确银行卡号"
+		},
+		username:{
+			required:"请输入正确的姓名"
+		}
+	}
+});	
+
+function showTip(str){
+    $('.toast').remove();
+    $('body').append('<div class="toast"><span>'+str+'</span></div>');
+       setTimeout(function(){
+           $('.toast').remove();
+       },3000)
+}
+
+});
+$("body").on("click",".green-btn2",function(){
+	var ipt = $(this).prev().find("input");
+	if(ipt.hasClass("error")){
+		return false;
+	}else{
+		$("#info-fm").submit();
+		layer.open({
+			content:"银行卡修改成功",
+	        style:"width:80%",
+	   });
+	}
+})*/
+
+</script>
+</html>
